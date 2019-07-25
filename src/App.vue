@@ -1,28 +1,40 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<body id="app">
+  <!-- <BankCard></BankCard>
+  <Stepper></Stepper>
+  <GoodsCard></GoodsCard>>
+  <Boutique></Boutique>> -->
+  <MainPage></MainPage>>
+   </body>
 </template>
 
 <script>
-import HelloWorld from './pages/HelloWorld.vue'
-
+//  import VueAwesomeSwiper from '../node_modules/vue-awesome-swiper'
+//    import '../node_modules/swiper/dist/css/swiper.css'
+// import BankCard from './components/common/BankCard/BankCard.vue'
+// import Stepper from './components/common/Stepper/Stepper.vue'
+// import GoodsCard from './components/common/GoodsCard/GoodsCard.vue'
+// import Boutique from './components/common/Boutique/Boutique.vue'
+import MainPage from '../src/pages/MainPage';
 export default {
   name: 'app',
   components: {
-    HelloWorld
-  }
+    // BankCard,
+  //   Stepper,
+  //   GoodsCard,
+  //   Boutique,
+    MainPage,
+   }
 }
-</script>
+ </script>
+<style  scoped>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+
+
+#app{
+ padding: 0;
+ margin:0;
 }
 </style>
+
