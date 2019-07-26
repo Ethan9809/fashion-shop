@@ -4,7 +4,7 @@
   <Stepper></Stepper>
   <GoodsCard></GoodsCard>>
   <Boutique></Boutique>> -->
-  <MainPage></MainPage>>
+  <MainPage></MainPage>
    </body>
 </template>
 
